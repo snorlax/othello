@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         new GameMaster("textui").run();
         
-        //testing();
+        //testing();//////////////////
     }
     
     public static void testing() {
