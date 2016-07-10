@@ -10,7 +10,7 @@ import othello.uis.*;
 public class Main {
 
     public static void main(String[] args) {
-        new GameMaster("textui").run();
+        new GameMaster("visualui").run();
         
         //testing();//////////////////
     }

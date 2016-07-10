@@ -12,8 +12,8 @@ public class Frame implements Runnable {
     public JFrame frame;
     public VisualBoard vb;
 
-    public Frame() {
-
+    public Frame(VisualBoard vb) {
+        this.vb = vb;
     }
 
     @Override
@@ -30,7 +30,7 @@ public class Frame implements Runnable {
     }
     public void createComponents(Container container) {
         container.setLayout(new BorderLayout());
-        vb = new VisualBoard();
+
         container.add(vb, BorderLayout.CENTER);
         //container.add(nappirivi, BorderLayout.SOUTH);
     }
